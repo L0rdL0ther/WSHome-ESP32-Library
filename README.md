@@ -21,7 +21,7 @@ Before getting started with this project, ensure that you have the necessary dep
    After cloning the repository, include the necessary libraries in your project by modifying the `CMakeLists.txt` file in the `main/` directory:
 
    ```txt
-   idf_component_register(SRCS "main.c" "dht11.c" "WSHome-ESP32-Library/wifi_control.c" "WSHome-ESP32-Library/smart_home.c"
+   idf_component_register(SRCS "main.c" "WSHome-ESP32-Library/wifi_control.c" "WSHome-ESP32-Library/smart_home.c"
    INCLUDE_DIRS ".")
    ```
 
